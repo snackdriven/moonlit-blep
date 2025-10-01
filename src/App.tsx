@@ -3,13 +3,6 @@ import { useEffect, useState } from 'react'
 export default function App() {
   return (
     <div className="min-h-screen text-silver bg-gradient-to-b from-[#15121d] via-[#1b1726] to-[#0e0c13] relative overflow-hidden">
-      {/* Fonts */}
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=EB+Garamond:wght@400;600;700&display=swap"
-        rel="stylesheet"
-      />
 
       {/* Subtle moving clouds */}
       <div className="absolute inset-0 opacity-40 -z-10" aria-hidden>
